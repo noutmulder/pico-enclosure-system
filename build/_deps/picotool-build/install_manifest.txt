@@ -1,0 +1,5 @@
+/home/nout/pico-enclosure-system/build/_deps/picotool/picotool
+/home/nout/pico-enclosure-system/build/_deps/picotool/picotoolTargets.cmake
+/home/nout/pico-enclosure-system/build/_deps/picotool/picotoolTargets-release.cmake
+/home/nout/pico-enclosure-system/build/_deps/picotool/picotoolConfig.cmake
+/home/nout/pico-enclosure-system/build/_deps/picotool/picotoolConfigVersion.cmake
