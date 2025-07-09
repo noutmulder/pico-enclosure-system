@@ -21,7 +21,7 @@ add_executable(pico_enclosure_system
     src/font5x7.c
     src/spi_lib.c
     src/oled_lib.c
-    # src/fan_control.c       # Als je deze maakt
+    src/fan.c      
 )
 
 # Stel UART1 in als standaard voor printf

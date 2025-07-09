@@ -1,5 +1,6 @@
-CMakeFiles/pico_enclosure_system.dir/src/main.c.o: \
- /home/nout/pico-enclosure-system/src/main.c \
+CMakeFiles/pico_enclosure_system.dir/src/fan.c.o: \
+ /home/nout/pico-enclosure-system/src/fan.c \
+ /home/nout/pico-enclosure-system/src/fan.h \
  /home/nout/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
  /home/nout/pico-sdk/src/common/pico_base_headers/include/pico.h \
  /home/nout/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
@@ -55,17 +56,4 @@ CMakeFiles/pico_enclosure_system.dir/src/main.c.o: \
  /home/nout/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
  /home/nout/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
  /home/nout/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
- /home/nout/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
- /home/nout/pico-enclosure-system/src/rotary_encoder_module.h \
- /usr/include/newlib/stdio.h /usr/include/newlib/sys/reent.h \
- /usr/include/newlib/_ansi.h /usr/include/newlib/sys/_types.h \
- /usr/include/newlib/machine/_types.h /usr/include/newlib/sys/lock.h \
- /usr/include/newlib/sys/stdio.h /usr/include/newlib/stdlib.h \
- /usr/include/newlib/machine/stdlib.h /usr/include/newlib/alloca.h \
- /home/nout/pico-enclosure-system/src/pt.h \
- /home/nout/pico-enclosure-system/src/lc.h \
- /home/nout/pico-enclosure-system/src/lc-switch.h \
- /home/nout/pico-enclosure-system/src/spi_lib.h \
- /home/nout/pico-enclosure-system/src/oled_lib.h \
- /home/nout/pico-enclosure-system/src/font5x7.h \
- /home/nout/pico-enclosure-system/src/fan.h
+ /home/nout/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h

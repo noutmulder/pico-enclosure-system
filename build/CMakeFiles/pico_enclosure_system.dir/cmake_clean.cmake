@@ -156,6 +156,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/pico_enclosure_system.dir/home/nout/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o.d"
   "CMakeFiles/pico_enclosure_system.dir/src/adc_lib.c.o"
   "CMakeFiles/pico_enclosure_system.dir/src/adc_lib.c.o.d"
+  "CMakeFiles/pico_enclosure_system.dir/src/fan.c.o"
+  "CMakeFiles/pico_enclosure_system.dir/src/fan.c.o.d"
   "CMakeFiles/pico_enclosure_system.dir/src/font5x7.c.o"
   "CMakeFiles/pico_enclosure_system.dir/src/font5x7.c.o.d"
   "CMakeFiles/pico_enclosure_system.dir/src/main.c.o"

@@ -2034,6 +2034,30 @@ src/adc_lib.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_enclosure_system.dir/build.make CMakeFiles/pico_enclosure_system.dir/src/adc_lib.c.s
 .PHONY : src/adc_lib.c.s
 
+src/fan.o: src/fan.c.o
+.PHONY : src/fan.o
+
+# target to build an object file
+src/fan.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_enclosure_system.dir/build.make CMakeFiles/pico_enclosure_system.dir/src/fan.c.o
+.PHONY : src/fan.c.o
+
+src/fan.i: src/fan.c.i
+.PHONY : src/fan.i
+
+# target to preprocess a source file
+src/fan.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_enclosure_system.dir/build.make CMakeFiles/pico_enclosure_system.dir/src/fan.c.i
+.PHONY : src/fan.c.i
+
+src/fan.s: src/fan.c.s
+.PHONY : src/fan.s
+
+# target to generate assembly for a file
+src/fan.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_enclosure_system.dir/build.make CMakeFiles/pico_enclosure_system.dir/src/fan.c.s
+.PHONY : src/fan.c.s
+
 src/font5x7.o: src/font5x7.c.o
 .PHONY : src/font5x7.o
 
@@ -2398,6 +2422,9 @@ help:
 	@echo "... src/adc_lib.o"
 	@echo "... src/adc_lib.i"
 	@echo "... src/adc_lib.s"
+	@echo "... src/fan.o"
+	@echo "... src/fan.i"
+	@echo "... src/fan.s"
 	@echo "... src/font5x7.o"
 	@echo "... src/font5x7.i"
 	@echo "... src/font5x7.s"

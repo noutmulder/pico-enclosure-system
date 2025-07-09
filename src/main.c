@@ -5,6 +5,7 @@
 #include "spi_lib.h"
 #include "oled_lib.h"
 #include "font5x7.h"
+#include "fan.h"
 
 
 #define NUM_LEDS 5 // Number of LEDs
@@ -31,7 +32,7 @@ int main() {
     stdio_init_all();
 //    set_sys_clock_khz(125000, true);
 
-
+    fan_init();
 
     // Initialize rotary encoder, LED module, and ADC
     rotary_encoder_init();    
@@ -66,6 +67,13 @@ static int protothread1(struct pt *pt) {
         nWaardeBeschikbaar_led = 1;
         
         printf("PT1: Encoder value updated: %d\n", waardeRotEnc);
+        if (waardeRotEnc % 2){fan_on();
+        printf("fan turning on...");
+        }
+        else {
+        printf("fan turning off...");
+            fan_off();
+        }
 
         char oled_text[20];
         snprintf(oled_text, sizeof(oled_text), "Pos: %ld", waardeRotEnc);
