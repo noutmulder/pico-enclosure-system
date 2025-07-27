@@ -1,6 +1,6 @@
 #include "ds18b20.h"
 
-#define DS18B20_PIN 12
+#define DS18B20_PIN 28
 
 static void ds18b20_write_bit(bool bit) {
     gpio_put(DS18B20_PIN, 0);

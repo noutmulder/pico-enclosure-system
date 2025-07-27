@@ -5,7 +5,6 @@
 
 #define DS18B20_PIN 28
 
-
 void ds18b20_init();
 float ds18b20_read_temp();
 

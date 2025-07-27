@@ -3659,6 +3659,7 @@ CMakeFiles/pico_enclosure_system.dir/src/main.c.o: /home/nout/pico-enclosure-sys
   /home/nout/pico-enclosure-system/src/lc-switch.h \
   /home/nout/pico-enclosure-system/src/lc.h \
   /home/nout/pico-enclosure-system/src/oled_lib.h \
+  /home/nout/pico-enclosure-system/src/options.h \
   /home/nout/pico-enclosure-system/src/pt.h \
   /home/nout/pico-enclosure-system/src/rotary_encoder_module.h \
   /home/nout/pico-enclosure-system/src/spi_lib.h \
@@ -3930,6 +3931,8 @@ CMakeFiles/pico_enclosure_system.dir/src/spi_lib.c.o: /home/nout/pico-enclosure-
 /home/nout/pico-enclosure-system/src/oled_lib.c:
 
 /home/nout/pico-enclosure-system/src/spi_lib.h:
+
+/home/nout/pico-enclosure-system/src/options.h:
 
 /home/nout/pico-enclosure-system/src/oled_lib.h:
 

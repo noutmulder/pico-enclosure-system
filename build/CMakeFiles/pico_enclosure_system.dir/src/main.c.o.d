@@ -69,4 +69,5 @@ CMakeFiles/pico_enclosure_system.dir/src/main.c.o: \
  /home/nout/pico-enclosure-system/src/oled_lib.h \
  /home/nout/pico-enclosure-system/src/font5x7.h \
  /home/nout/pico-enclosure-system/src/fan.h \
- /home/nout/pico-enclosure-system/src/ds18b20.h
+ /home/nout/pico-enclosure-system/src/ds18b20.h \
+ /home/nout/pico-enclosure-system/src/options.h
