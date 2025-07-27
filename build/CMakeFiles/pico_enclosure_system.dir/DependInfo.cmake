@@ -89,6 +89,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
+  "/home/nout/pico-enclosure-system/src"
   "/home/nout/pico-sdk/src/rp2_common/pico_atomic/include"
   "/home/nout/pico-sdk/lib/tinyusb/src"
   "/home/nout/pico-sdk/src/common/pico_stdlib_headers/include"
@@ -227,6 +228,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/nout/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/pico_enclosure_system.dir/home/nout/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o" "gcc" "CMakeFiles/pico_enclosure_system.dir/home/nout/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o.d"
   "/home/nout/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/pico_enclosure_system.dir/home/nout/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o" "gcc" "CMakeFiles/pico_enclosure_system.dir/home/nout/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o.d"
   "/home/nout/pico-enclosure-system/src/adc_lib.c" "CMakeFiles/pico_enclosure_system.dir/src/adc_lib.c.o" "gcc" "CMakeFiles/pico_enclosure_system.dir/src/adc_lib.c.o.d"
+  "/home/nout/pico-enclosure-system/src/ds18b20.c" "CMakeFiles/pico_enclosure_system.dir/src/ds18b20.c.o" "gcc" "CMakeFiles/pico_enclosure_system.dir/src/ds18b20.c.o.d"
   "/home/nout/pico-enclosure-system/src/fan.c" "CMakeFiles/pico_enclosure_system.dir/src/fan.c.o" "gcc" "CMakeFiles/pico_enclosure_system.dir/src/fan.c.o.d"
   "/home/nout/pico-enclosure-system/src/font5x7.c" "CMakeFiles/pico_enclosure_system.dir/src/font5x7.c.o" "gcc" "CMakeFiles/pico_enclosure_system.dir/src/font5x7.c.o.d"
   "/home/nout/pico-enclosure-system/src/main.c" "CMakeFiles/pico_enclosure_system.dir/src/main.c.o" "gcc" "CMakeFiles/pico_enclosure_system.dir/src/main.c.o.d"

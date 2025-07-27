@@ -2034,6 +2034,30 @@ src/adc_lib.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_enclosure_system.dir/build.make CMakeFiles/pico_enclosure_system.dir/src/adc_lib.c.s
 .PHONY : src/adc_lib.c.s
 
+src/ds18b20.o: src/ds18b20.c.o
+.PHONY : src/ds18b20.o
+
+# target to build an object file
+src/ds18b20.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_enclosure_system.dir/build.make CMakeFiles/pico_enclosure_system.dir/src/ds18b20.c.o
+.PHONY : src/ds18b20.c.o
+
+src/ds18b20.i: src/ds18b20.c.i
+.PHONY : src/ds18b20.i
+
+# target to preprocess a source file
+src/ds18b20.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_enclosure_system.dir/build.make CMakeFiles/pico_enclosure_system.dir/src/ds18b20.c.i
+.PHONY : src/ds18b20.c.i
+
+src/ds18b20.s: src/ds18b20.c.s
+.PHONY : src/ds18b20.s
+
+# target to generate assembly for a file
+src/ds18b20.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_enclosure_system.dir/build.make CMakeFiles/pico_enclosure_system.dir/src/ds18b20.c.s
+.PHONY : src/ds18b20.c.s
+
 src/fan.o: src/fan.c.o
 .PHONY : src/fan.o
 
@@ -2422,6 +2446,9 @@ help:
 	@echo "... src/adc_lib.o"
 	@echo "... src/adc_lib.i"
 	@echo "... src/adc_lib.s"
+	@echo "... src/ds18b20.o"
+	@echo "... src/ds18b20.i"
+	@echo "... src/ds18b20.s"
 	@echo "... src/fan.o"
 	@echo "... src/fan.i"
 	@echo "... src/fan.s"

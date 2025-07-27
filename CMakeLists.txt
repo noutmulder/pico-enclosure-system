@@ -22,7 +22,11 @@ add_executable(pico_enclosure_system
     src/spi_lib.c
     src/oled_lib.c
     src/fan.c      
+    src/ds18b20.c
 )
+
+target_include_directories(pico_enclosure_system PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/src)
+
 
 # Stel UART1 in als standaard voor printf
 target_compile_definitions(pico_enclosure_system PUBLIC
